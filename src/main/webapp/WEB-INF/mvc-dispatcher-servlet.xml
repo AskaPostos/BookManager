@@ -49,7 +49,7 @@
     </bean>
 
     <context:component-scan base-package="net.proselyte.bookmanager"/>
-    <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
     <mvc:default-servlet-handler />
     <mvc:annotation-driven />
 
